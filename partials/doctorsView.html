@@ -1,7 +1,6 @@
 
-<div ng-repeat="doctor in doctorList" class="col-md-3">
-  <div ng-repeat="(key, value) in doctor">
-    <p>Doctor Name: <a href="#/doctor">{{value.first_name}} {{value.last_name}}</a></p>
-    <p>Speciality: {{value.speciality}}</p>
-  </div>
+<div ng-repeat="(key, value) in doctorList" class="col-md-3">
+  <p>Doctor Name: <a href='#/doctor/{{key}}'>{{value.first_name}} {{value.last_name}}</a></p>
+  <p>Speciality: {{value.speciality}}</p>
+  <p>{{key}}</p>
 </div>
