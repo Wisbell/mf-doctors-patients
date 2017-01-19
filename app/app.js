@@ -10,6 +10,10 @@ app.config(function($routeProvider, $locationProvider){
       controller: 'DoctorCtrl',
       templateUrl: 'partials/doctorsView.html'
     })
+    .when('/doctors/:patients', {
+      controller: 'PatientCtrl',
+      templateUrl: 'partials/patientsView.html'
+    })
     .otherwise({
       redirectTo: 'partials/doctorsView.html'
     })
