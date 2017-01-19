@@ -1,0 +1,34 @@
+{
+    "doctors": {
+        "killigrew": {
+            "first_name": "Johan",
+            "last_name": "Killigrew",
+            "speciality": "Pediatrics"
+        },
+        "billy": {
+            "first_name": "William",
+            "last_name": "Billy",
+            "speciality": "Pediatrics"
+        }
+    },
+    "patients": {
+        "svenson": {
+            "ailment": "Arthritis",
+            "doctor_id": "killigrew",
+            "first_name": "Margot",
+            "last_name": "Svenson"
+        },
+        "livingston": {
+            "ailment": "Arthritis",
+            "doctor_id": "killigrew",
+            "first_name": "Margot",
+            "last_name": "Svenson"
+        },
+        "johnson": {
+            "ailment": "Arthritis",
+            "doctor_id": "billy",
+            "first_name": "Margot",
+            "last_name": "Svenson"
+        }
+    }
+}
