@@ -1,1 +1,7 @@
-<h1>PATIENT VIEW YESSSS</h1>
+<h3>Patient List</h3>
+
+<div ng-repeat="(key, value) in patientList" class="col-md-3">
+  <h5>Patient Name: {{value.first_name}} {{value.last_name}}</h5>
+  <p>Doctor ID: {{key}}</p>
+  <p>Ailment: {{value.ailment}}</p>
+</div>
